@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../modern-normalize.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="registro.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../../public/index.html">
+        <img src="../assets/flechaIzquierda.svg" alt="flechaIzquierda" />
+        Volver
+      </a>
+      <div>
+        <img src="../assets/changAppLogo.svg" alt="changAppLogo" />
+        <h1>ChangApp</h1>
+      </div>
+    </header>
+
+    <main>
+      <form action="" method="get">
+        <h2>Registro</h2>
+
+        <div class="inputs-registro">
+          <label for="nombre-completo">
+            <h3>Nombre completo</h3>
+            <input
+              id="nombre-completo"
+              required
+              type="text"
+              placeholder="Ej: Juan Perez"
+            />
+          </label>
+          <label for="email">
+            <h3>Email</h3>
+            <input
+              id="email"
+              required
+              type="email"
+              placeholder="tu@email.com"
+            />
+          </label>
+          <label for="contraseña">
+            <h3>Contraseña</h3>
+            <input
+              id="contraseña"
+              required
+              type="password"
+              placeholder="Mínimo 6 caracteres"
+            />
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Tipo de usuario</legend>
+          <div>
+            <label for="cliente">
+              <div>
+                <input checked id="cliente" name="tipo-usuario" type="radio" />
+                <div class="radio-style"></div>
+                <h3>Cliente</h3>
+              </div>
+              <span>Busco contratar profesionales</span>
+            </label>
+            <label for="profesional">
+              <div>
+                <input type="radio" name="tipo-usuario" id="profesional" />
+                <div class="radio-style"></div>
+                <h3>Profesional</h3>
+              </div>
+              <span>Ofrezco mis servicios</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Crear cuenta</button>
+
+        <span>
+          ¿Ya tienes cuenta?
+          <a href="perfil.html">iniciar sesión</a>
+        </span>
+      </form>
+    </main>
+
+    <footer class="footer-main">
+      <a href="">Terminos y Condiciones</a>
+      <a href="">Contacto</a>
+    </footer>
+  </body>
+</html>

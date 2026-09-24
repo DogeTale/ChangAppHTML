@@ -1,0 +1,175 @@
+/* Colores que vamos a reutilizar */
+:root {
+  --color-fondo: rgb(233, 241, 255);
+  --color-principal-light: rgb(53, 53, 255);
+  --color-secundario-light: rgb(78, 78, 78);
+  --color-terciario-light: rgb(139, 139, 139);
+  --color-cards-principal-light: white;
+  --color-botones-principal-light: white;
+  --color-botones-principal-hover-light: rgb(240, 240, 240);
+  --color-botones-secundario-light: black;
+  --color-botones-secundario-font-light: white;
+  --color-sombra-light: rgb(192, 192, 192);
+  --color-bordes-principal-light: rgb(126, 126, 126);
+  --color-bordes-secundario-light: rgb(0, 0, 0);
+  --color-radio-input-fondo-light: black;
+  --color-input-fondo-light: rgb(240, 240, 240);
+  --color-input-borde-light: rgb(53, 53, 255);
+  --color-marco-perfil-light: #e2e2e2;
+  --color-svg-principal-light: rgb(139, 139, 139);
+}
+
+/* Estilos globales */
+
+html {
+  background-color: var(--color-fondo);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  width: 80vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-principal-light);
+
+  img {
+    margin: 10px;
+    margin-top: 20px;
+    width: 60px;
+    rotate: 90deg;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 60px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-secundario-light);
+  }
+}
+
+/* FOOTER */
+
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  padding: 1rem;
+}
+
+/* Pantalla Principal */
+
+.buscar-trabajador-o-registrarse-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  margin-top: 25px;
+  background-color: var(--color-cards-principal-light);
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px 2px var(--color-sombra-light);
+
+  h2 {
+    font-weight: 500;
+  }
+
+  img {
+    width: 20px;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--color-bordes-principal-light);
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  :nth-child(2) {
+    background-color: var(--color-botones-secundario-light);
+    color: var(--color-botones-secundario-font-light);
+  }
+
+  a:hover {
+    opacity: 0.8;
+    scale: 0.95;
+  }
+}
+
+.busqueda-facil-y-favoritos-card {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+  margin-top: 30px;
+  gap: 30px;
+
+  img {
+    width: 40px;
+  }
+
+  a {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 2px var(--color-sombra-light);
+  }
+
+  a:hover {
+    opacity: 0.8;
+    scale: 0.95;
+  }
+
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

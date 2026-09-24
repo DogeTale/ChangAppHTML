@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../modern-normalize.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="perfil.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../../public/index.html">
+        <img src="../assets/flechaIzquierda.svg" alt="flechaIzquierda" />
+        Volver
+      </a>
+      <div class="header-title">
+        <div>
+          <h1>Mi Perfil Profesional</h1>
+          <span
+            >Completa tu información para que los clientes te encuentren</span
+          >
+        </div>
+        <button>Vista Previa</button>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <div class="div-informacion-personal">
+          <h2>Información Personal</h2>
+          <div class="div-foto-perfil">
+            <div>
+              <span>Foto de Perfil</span>
+              <div class="marco-foto-perfil">
+                <img src="../assets/signoPregunta.svg" alt="foto-de-perfil" />
+              </div>
+            </div>
+            <button type="button">
+              <img src="../assets/camara.svg" alt="camara" />
+              <span>Cambiar Foto</span>
+            </button>
+          </div>
+
+          <div class="div-informacion-principal">
+            <label for="nombre-completo">
+              <h3>Nombre completo</h3>
+              <input
+                id="nombre-completo"
+                required
+                type="text"
+                placeholder="Tu nombre"
+              />
+            </label>
+            <label for="oficio">
+              <h3>Oficio</h3>
+              <select id="oficio">
+                <option value="" disabled selected>Selecciona tu oficio</option>
+                <option value="albañil">Albañil</option>
+                <option value="electricista">Electricista</option>
+                <option value="pintor">Pintor</option>
+              </select>
+            </label>
+            <label for="descripcion">
+              <h3>Descripción</h3>
+              <textarea
+                id="descripcion"
+                placeholder="Describe tu experiencia, especialidades y qué te hace destacar..."
+              ></textarea>
+            </label>
+            <label for="telefono">
+              <h3>Teléfono</h3>
+              <input
+                id="telefono"
+                required
+                type="text"
+                placeholder="+56 9 1234 5678"
+              />
+            </label>
+            <label for="email">
+              <h3>Email</h3>
+              <input
+                id="email"
+                required
+                type="email"
+                placeholder="tu@email.com"
+              />
+            </label>
+            <label for="años-de-experiencia">
+              <h3>Años de experiencia</h3>
+              <input
+                id="años-de-experiencia"
+                required
+                type="text"
+                placeholder="Ej: 10 años"
+              />
+            </label>
+          </div>
+        </div>
+
+        <div class="div-galeria-de-trabajos">
+          <h2>Galería de Trabajos</h2>
+          <span>
+            Agrega fotos de tus trabajos anteriores para mostrar tu experiencia
+          </span>
+          <div id="div-fotos-galeria-trabajos">
+            <button type="button">
+              <h1>+</h1>
+              <h3>Agregar foto</h3>
+            </button>
+          </div>
+        </div>
+
+        <div class="div-estado-del-perfil">
+          <h2>Estado del Perfil</h2>
+
+          <ul>
+            <li>
+              <span>Información básica</span>
+              <img src="../assets/circulo.svg" alt="circulo" />
+            </li>
+            <li>
+              <span>Descripción</span>
+              <img src="../assets/circulo.svg" alt="circulo" />
+            </li>
+            <li>
+              <span>Contacto</span>
+              <img src="../assets/circulo.svg" alt="circulo" />
+            </li>
+            <li>
+              <span>Galería</span>
+              <img src="../assets/circulo.svg" alt="circulo" />
+            </li>
+          </ul>
+
+          <button>
+            <img src="../assets/disquete.svg" alt="disquete" />
+            <h3>Guardar Perfil</h3>
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer-main">
+      <a href="">Terminos y Condiciones</a>
+      <a href="">Contacto</a>
+    </footer>
+  </body>
+</html>

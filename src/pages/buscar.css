@@ -1,0 +1,262 @@
+/* Estilos Globales */
+img,
+svg {
+  width: 20px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  a {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+    color: var(--color-principal-light);
+    gap: 10px;
+
+    img {
+      width: 20px;
+    }
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    flex-direction: column;
+
+    h1 {
+      margin-bottom: 5px;
+      color: var(--color-principal-light);
+    }
+
+    span {
+      color: var(--color-secundario-light);
+      font-weight: 500;
+      max-width: 90%;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  max-width: 500px;
+
+  .div-busqueda {
+    padding: 2rem;
+    width: 100%;
+    background-color: var(--color-cards-principal-light);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px var(--color-sombra-light);
+  }
+
+  .div-busqueda {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input,
+    select {
+      width: 100%;
+      border: none;
+      padding: 0.7rem 1rem;
+      border-radius: 10px;
+      background-color: var(--color-input-fondo-light);
+    }
+
+    input {
+      padding-left: 2.5rem;
+    }
+
+    label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      svg {
+        stroke: rgb(163, 163, 163);
+        position: absolute;
+        left: 10px;
+      }
+
+      .lupa-svg {
+        fill: rgb(163, 163, 163);
+      }
+    }
+
+    select {
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+
+  .div-oficios-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    span {
+      font-weight: 500;
+    }
+
+    #cantidad-profesionales {
+      color: var(--color-secundario-light);
+      margin-bottom: -20px;
+    }
+
+    .oficio-card {
+      padding: 0;
+      width: 100%;
+      background-color: var(--color-cards-principal-light);
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px 3px var(--color-sombra-light);
+      overflow: hidden;
+      transition: scale 0.3s ease-in-out;
+
+      .imagen-oficio-card {
+        margin-bottom: -70px;
+        img {
+          width: 100%;
+          clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 70%);
+        }
+      }
+
+      .descripcion-oficio-card {
+        display: inline-block;
+      }
+
+      .perfil-oficio-card,
+      .descripcion-oficio-card,
+      .ubicacion-experiencia-oficio-card {
+        padding: 0 2rem;
+      }
+
+      .perfil-oficio-card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        position: relative;
+
+        img {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+        }
+
+        div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 5px;
+
+          h3 {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 500;
+          }
+
+          span {
+            font-size: 15px;
+            color: var(--color-principal-light);
+          }
+        }
+
+        svg {
+          position: absolute;
+          width: 5vw;
+          max-width: 40px;
+          right: 20px;
+          top: 0;
+        }
+      }
+
+      .descripcion-oficio-card {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        margin-bottom: 20px;
+        color: var(--color-secundario-light);
+      }
+
+      .ubicacion-experiencia-oficio-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+
+        div {
+          display: flex;
+          align-items: center;
+          stroke: rgb(163, 163, 163);
+        }
+
+        span {
+          color: var(--color-terciario-light);
+        }
+      }
+    }
+
+    /* Decidi agregar una animacion rapida donde cada tarjeta impar aparece desde la izquierda con un degradado y cada tarjeta par desde la derecha, todo dependiendo de que tan cerca del centro de la pantalla esten al bajar con la rueda del mouse */
+
+    .transicion-izquierda {
+      animation: entrarPorIzquierda;
+    }
+
+    .transicion-derecha {
+      animation: entrarPorDerecha;
+    }
+    .transicion-derecha,
+    .transicion-izquierda {
+      animation-fill-mode: both;
+      animation-timeline: view();
+      animation-range: entry 0% contain 10%;
+    }
+
+    .oficio-card:hover {
+      scale: 0.95;
+      transition: scale 0.3s ease-in-out;
+    }
+  }
+}
+
+@keyframes entrarPorIzquierda {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrarPorDerecha {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

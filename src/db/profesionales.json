@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos Mendoza",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Carpintero profesional con más de 15 años de experiencia en muebles a medida y construcciones en madera.",
+    "telefono": "+54 9 260 412-3456",
+    "email": "carlosmendoza@ejemploemail.com",
+    "anosExperiencia": "15 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "María Laura Giménez",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista Matriculada",
+    "descripcion": "Instalaciones eléctricas domiciliarias e industriales, cableados, tableros y certificación de obra.",
+    "telefono": "+54 9 260 456-7890",
+    "email": "marialaura.electricidad@ejemploemail.com",
+    "anosExperiencia": "8 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Roberto 'Tito' Silva",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Especialista en instalaciones de gas natural y envasado, detección de fugas y habilitaciones de artefactos.",
+    "telefono": "+54 9 260 422-1133",
+    "email": "titosilva.gas@ejemploemail.com",
+    "anosExperiencia": "12 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Esteban Quito",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Construcción en general, revoques, colocación de pisos y refacciones integrales para el hogar.",
+    "telefono": "+54 9 260 488-9900",
+    "email": "esteban.albanil@ejemploemail.com",
+    "anosExperiencia": "6 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Lucía Fernández",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora de Obra",
+    "descripcion": "Pintura de interiores y exteriores, impermeabilización de techos, colocación de revestimiento plástico.",
+    "telefono": "+54 9 260 433-4455",
+    "email": "lucia.pintura@ejemploemail.com",
+    "anosExperiencia": "5 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Jorge Gómez",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Construcción tradicional, levantamiento de paredes, contrapisos, colocación de cerámicos y porcelanatos.",
+    "telefono": "+54 9 260 477-6611",
+    "email": "jorgegomez.obras@ejemploemail.com",
+    "anosExperiencia": "20 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Valeria Rossi",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Especialista en acabados de alta calidad, pintura decorativa, laqueados y restauración de paredes.",
+    "telefono": "+54 9 260 499-1122",
+    "email": "valeria.pinturas@ejemploemail.com",
+    "anosExperiencia": "7 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Gustavo Peralta",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Fabricación de pergolados, decks de madera, placares y amoblamientos de cocina modernos.",
+    "telefono": "+54 9 260 455-8833",
+    "email": "carpinteriaperalta@ejemploemail.com",
+    "anosExperiencia": "10 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Ana Clara Martínez",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalación de iluminación LED, solución de cortocircuitos, térmicas y disyuntores domiciliarios.",
+    "telefono": "+54 9 260 411-2244",
+    "email": "anac.electricidad@ejemploemail.com",
+    "anosExperiencia": "4 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Mariano Bustos",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Instalación y mantenimiento de estufas, calefones, termotanques y cocinas a gas.",
+    "telefono": "+54 9 260 466-3322",
+    "email": "marianobustos.gas@ejemploemail.com",
+    "anosExperiencia": "14 años",
+    "localidad": "San Rafael, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Gonzalo Ramírez",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en cimientos, losas, columnas y reformas de albañilería en general.",
+    "telefono": "+54 9 261 411-9988",
+    "email": "gonzalo.albanil@ejemploemail.com",
+    "anosExperiencia": "11 años",
+    "localidad": "Mendoza Capital, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Camila Soria",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Pintura de fachadas, terminaciones en satinado, epoxi para pisos y restauración de aberturas.",
+    "telefono": "+54 9 261 433-2211",
+    "email": "camila.pinturas@ejemploemail.com",
+    "anosExperiencia": "6 años",
+    "localidad": "Godoy Cruz, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Facundo Morales",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista Matriculado",
+    "descripcion": "Urgencias eléctricas 24hs, montaje de tableros trifásicos, cableados estructurados y puesta a tierra.",
+    "telefono": "+54 9 261 477-8899",
+    "email": "electricidad.facundo@ejemploemail.com",
+    "anosExperiencia": "9 años",
+    "localidad": "Luján de Cuyo, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "Romina Araya",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintera",
+    "descripcion": "Restauración de aberturas de madera, portones, marcos y muebles finos a medida.",
+    "telefono": "+54 9 261 400-3311",
+    "email": "romina.carpinteria@ejemploemail.com",
+    "anosExperiencia": "7 años",
+    "localidad": "Maipú, Mendoza",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Diego Armando López",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista",
+    "descripcion": "Detección y reparación de fugas de gas, prueba de hermeticidad y colocación de cañerías de Sigas.",
+    "telefono": "+54 9 263 422-5566",
+    "email": "diegolopez.gas@ejemploemail.com",
+    "anosExperiencia": "4 años",
+    "localidad": "San Martín, Mendoza",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Martiniano Silva",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Colocación de cerámicos, revestimientos, revoque fino, grueso y terminaciones impecables.",
+    "telefono": "+54 9 11 4123-9876",
+    "email": "martiniano.obras@ejemploemail.com",
+    "anosExperiencia": "8 años",
+    "localidad": "Ciudad Autónoma de Buenos Aires",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Gisela Benítez",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Trabajos en altura, impermeabilización de frentes, colocación de enduido y látex lavable.",
+    "telefono": "+54 9 11 5678-1234",
+    "email": "gisela.pinturas@ejemploemail.com",
+    "anosExperiencia": "13 años",
+    "localidad": "La Plata, Buenos Aires",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Emilio Rossi",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Especialista en placares en melamina, vestidores integrales y bajomesadas personalizadas.",
+    "telefono": "+54 9 11 3456-7890",
+    "email": "emilio.muebles@ejemploemail.com",
+    "anosExperiencia": "18 años",
+    "localidad": "Avellaneda, Buenos Aires",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Sofía Domínguez",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalación de sensores de movimiento, automatización de portones y porteros eléctricos.",
+    "telefono": "+54 9 11 6789-0123",
+    "email": "sofia.electrico@ejemploemail.com",
+    "anosExperiencia": "5 años",
+    "localidad": "San Isidro, Buenos Aires",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Lucas Albarracín",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Habilitaciones ante distribuidoras de gas, confección de planos y revisión de instalaciones existentes.",
+    "telefono": "+54 9 11 2345-6789",
+    "email": "lucas.gasista@ejemploemail.com",
+    "anosExperiencia": "9 años",
+    "localidad": "Quilmes, Buenos Aires",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "Nicolás Cabrera",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en impermeabilización de techos, colocación de membranas y carpetas cementicias.",
+    "telefono": "+54 9 341 412-3456",
+    "email": "nicolas.obras@ejemploemail.com",
+    "anosExperiencia": "7 años",
+    "localidad": "Rosario, Santa Fe",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Agustina Carrizo",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Especialista en combinaciones cromáticas, pintura sintética para herrería y acabados satinados.",
+    "telefono": "+54 9 341 567-8901",
+    "email": "agustina.pintura@ejemploemail.com",
+    "anosExperiencia": "6 años",
+    "localidad": "Rosario, Santa Fe",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "Hernán Diaz",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Construcción de techos de madera, tirantería a la vista, machimbrado y lustrado.",
+    "telefono": "+54 9 342 433-1122",
+    "email": "hernan.carpinteria@ejemploemail.com",
+    "anosExperiencia": "16 años",
+    "localidad": "Santa Fe Capital, Santa Fe",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Patricia Sosa",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista Matriculada",
+    "descripcion": "Montaje de acometidas, tableros seccionales y certificados de aptitud eléctrica.",
+    "telefono": "+54 9 342 488-7766",
+    "email": "patricia.electricidad@ejemploemail.com",
+    "anosExperiencia": "10 años",
+    "localidad": "Rafaela, Santa Fe",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "Leandro Paredes",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista",
+    "descripcion": "Mantenimiento preventivo de artefactos de calefacción, cambio de picos y conversión de gas.",
+    "telefono": "+54 9 351 455-6677",
+    "email": "leandro.gas@ejemploemail.com",
+    "anosExperiencia": "9 años",
+    "localidad": "Córdoba Capital, Córdoba",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Florencia Peña",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en refacción de baños y cocinas, cambio de cañerías y pegado de azulejos.",
+    "telefono": "+54 9 351 422-9900",
+    "email": "florencia.obras@ejemploemail.com",
+    "anosExperiencia": "5 años",
+    "localidad": "Villa Carlos Paz, Córdoba",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "Matías Romero",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintor",
+    "descripcion": "Pintado de grandes superficies con máquina airless, revestimiento plástico Tarquini y Revear.",
+    "telefono": "+54 9 358 411-0022",
+    "email": "matias.pintor@ejemploemail.com",
+    "anosExperiencia": "8 años",
+    "localidad": "Río Cuarto, Córdoba",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "Lorena Mansilla",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintera",
+    "descripcion": "Diseño y armado de barras de madera para locales, mesadas de madera maciza e interiorismo.",
+    "telefono": "+54 9 381 433-8899",
+    "email": "lorena.maderas@ejemploemail.com",
+    "anosExperiencia": "3 años",
+    "localidad": "San Miguel de Tucumán, Tucumán",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "Joaquín Zabala",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalación de luminarias de diseño, equilibrio de fases en comercios y tableros principales.",
+    "telefono": "+54 9 381 477-5544",
+    "email": "joaquin.electricista@ejemploemail.com",
+    "anosExperiencia": "12 años",
+    "localidad": "Yerba Buena, Tucumán",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "Emanuel Ginóbili",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Instalación de sistemas de calefacción central por radiadores y calderas a gas.",
+    "telefono": "+54 9 291 400-1122",
+    "email": "emanuel.calefaccion@ejemploemail.com",
+    "anosExperiencia": "15 años",
+    "localidad": "Bahía Blanca, Buenos Aires",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "nombre": "Carolina Herrera",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en colocación de porcelanato de grandes formatos y veredas comunitarias.",
+    "telefono": "+54 9 223 455-9988",
+    "email": "carolina.obras@ejemploemail.com",
+    "anosExperiencia": "10 años",
+    "localidad": "Mar del Plata, Buenos Aires",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "nombre": "Sebastián Estevanez",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintor",
+    "descripcion": "Pintura residencial e industrial, impermeabilización de medianeras y aplicación de barnices.",
+    "telefono": "+54 9 223 411-7766",
+    "email": "seba.pinturas@ejemploemail.com",
+    "anosExperiencia": "8 años",
+    "localidad": "Mar del Plata, Buenos Aires",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "nombre": "Natalia Oreiro",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintera",
+    "descripcion": "Especialista en revestimientos de madera para paredes interiores y zócalos de estilo.",
+    "telefono": "+54 9 294 422-3344",
+    "email": "natalia.madera@ejemploemail.com",
+    "anosExperiencia": "5 años",
+    "localidad": "San Carlos de Bariloche, Río Negro",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "nombre": "Cristian Castro",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Recableados de casas antiguas, instalación de pilar de luz reglamentario y puestas a tierra.",
+    "telefono": "+54 9 299 433-6655",
+    "email": "cristian.electricidad@ejemploemail.com",
+    "anosExperiencia": "4 años",
+    "localidad": "Neuquén Capital, Neuquén",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "nombre": "Beatriz Luengo",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculada",
+    "descripcion": "Instalación de conductos de ventilación reglamentarios y verificación de tirajes de estufas.",
+    "telefono": "+54 9 387 488-2211",
+    "email": "beatriz.gas@ejemploemail.com",
+    "anosExperiencia": "11 años",
+    "localidad": "Salta Capital, Salta",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "nombre": "Gabriel Mercado",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en revoques impermeables, cimientos anti humedad y refuerzo de estructuras.",
+    "telefono": "+54 9 385 411-4433",
+    "email": "gabriel.albanil@ejemploemail.com",
+    "anosExperiencia": "17 años",
+    "localidad": "Santiago del Estero Capital, Santiago del Estero",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "nombre": "Daniela Romo",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Pintura de techos y paredes, aplicación de fijador y tratamiento anti hongo en ambientes húmedos.",
+    "telefono": "+54 9 264 455-1122",
+    "email": "daniela.pinturas@ejemploemail.com",
+    "anosExperiencia": "3 años",
+    "localidad": "San Juan Capital, San Juan",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "nombre": "Alejandro Sanz",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Especialista en escaleras de madera maciza, barandas y pulido de escalones.",
+    "telefono": "+54 9 266 422-9988",
+    "email": "ale.carpinteria@ejemploemail.com",
+    "anosExperiencia": "9 años",
+    "localidad": "San Luis Capital, San Luis",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "nombre": "Gaston Gaudio",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalaciones eléctricas industriales, balanceo de cargas y automatizaciones básicas.",
+    "telefono": "+54 9 343 400-5544",
+    "email": "gaston.electro@ejemploemail.com",
+    "anosExperiencia": "6 años",
+    "localidad": "Paraná, Entre Ríos",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "nombre": "Ivana Nadal",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista",
+    "descripcion": "Servicio técnico para cocinas industriales y residenciales, limpieza de inyectores y regulación.",
+    "telefono": "+54 9 379 433-2211",
+    "email": "ivana.gas@ejemploemail.com",
+    "anosExperiencia": "5 años",
+    "localidad": "Corrientes Capital, Corrientes",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "nombre": "Julio Bocca",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Maestro mayor en obra tradicional, levantamiento de quinchos, parrillas y hornos de barro.",
+    "telefono": "+54 9 362 455-8899",
+    "email": "julio.albanileria@ejemploemail.com",
+    "anosExperiencia": "22 años",
+    "localidad": "Resistencia, Chaco",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "nombre": "Karin Cohen",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Pintura de obra fina, efectos especiales de pintura, estucados y microcemento decorativo.",
+    "telefono": "+54 9 376 411-2233",
+    "email": "karin.pinturas@ejemploemail.com",
+    "anosExperiencia": "7 años",
+    "localidad": "Posadas, Misiones",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "nombre": "Luciano Pereyra",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Especialista en reposición y armado de aberturas, portones seccionales y celosías.",
+    "telefono": "+54 9 388 477-1100",
+    "email": "luciano.carpintero@ejemploemail.com",
+    "anosExperiencia": "4 años",
+    "localidad": "San Salvador de Jujuy, Jujuy",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "nombre": "Mercedes Sosa",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalaciones eléctricas para obras nuevas, tendido de cañerías e iluminación exterior.",
+    "telefono": "+54 9 383 422-6677",
+    "email": "mercedes.electro@ejemploemail.com",
+    "anosExperiencia": "12 años",
+    "localidad": "San Fernando del Valle de Catamarca, Catamarca",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "nombre": "Norberto 'Pappo' Napolitano",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Instalación de zeppelines, reguladores de presión y cañerías industriales de gas.",
+    "telefono": "+54 9 380 433-9911",
+    "email": "pappo.gas@ejemploemail.com",
+    "anosExperiencia": "25 años",
+    "localidad": "La Rioja Capital, La Rioja",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "nombre": "Oscar Ruggeri",
+    "fotoPerfil": "../assets/oficiosImagenes/albanil.jpg",
+    "oficio": "Albañil",
+    "descripcion": "Especialista en demoliciones controladas, apertura de vanos y dinteles de hormigón.",
+    "telefono": "+54 9 2954 411-8877",
+    "email": "oscar.construcciones@ejemploemail.com",
+    "anosExperiencia": "14 años",
+    "localidad": "Santa Rosa, La Pampa",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaalbanil.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "nombre": "Paloma Herrera",
+    "fotoPerfil": "../assets/oficiosImagenes/pintor.jpg",
+    "oficio": "Pintora",
+    "descripcion": "Restauración de fachadas históricas, tratamiento de maderas expuestas al intemperie.",
+    "telefono": "+54 9 280 455-3322",
+    "email": "paloma.pintora@ejemploemail.com",
+    "anosExperiencia": "10 años",
+    "localidad": "Puerto Madryn, Chubut",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg",
+      "../assets/oficiosImagenes/galeria/galeriapintor.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "Quique Wolff",
+    "fotoPerfil": "../assets/oficiosImagenes/carpintero.jpg",
+    "oficio": "Carpintero",
+    "descripcion": "Carpintería general, colocación de pisos flotantes, zócalos y puertas de interior.",
+    "telefono": "+54 9 2966 422-0011",
+    "email": "quique.carpinteria@ejemploemail.com",
+    "anosExperiencia": "8 años",
+    "localidad": "Río Gallegos, Santa Cruz",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg",
+      "../assets/oficiosImagenes/galeria/galeriacarpintero.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "Rocío Guirao Díaz",
+    "fotoPerfil": "../assets/oficiosImagenes/electricista.jpg",
+    "oficio": "Electricista",
+    "descripcion": "Instalación de luminarias de exterior, proyectores LED y sistemas de temporización.",
+    "telefono": "+54 9 2901 433-7788",
+    "email": "rocio.electricidad@ejemploemail.com",
+    "anosExperiencia": "6 años",
+    "localidad": "Ushuaia, Tierra del Fuego",
+    "verificado": true,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriaelectricista.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "Sergio Maravilla Martínez",
+    "fotoPerfil": "../assets/oficiosImagenes/gasista.jpg",
+    "oficio": "Gasista Matriculado",
+    "descripcion": "Reparación de calefones, termotanques de alta potencia y calderas murales.",
+    "telefono": "+54 9 370 411-9922",
+    "email": "maravilla.gas@ejemploemail.com",
+    "anosExperiencia": "11 años",
+    "localidad": "Formosa Capital, Formosa",
+    "verificado": false,
+    "galeriaTrabajos": [
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg",
+      "../assets/oficiosImagenes/galeria/galeriagasista.jpg"
+    ]
+  }
+]
