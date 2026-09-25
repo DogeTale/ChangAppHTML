@@ -1,22 +1,40 @@
 /* Colores que vamos a reutilizar */
 :root {
-  --color-fondo: rgb(233, 241, 255);
-  --color-principal-light: rgb(53, 53, 255);
-  --color-secundario-light: rgb(78, 78, 78);
-  --color-terciario-light: rgb(139, 139, 139);
-  --color-cards-principal-light: white;
-  --color-botones-principal-light: white;
-  --color-botones-principal-hover-light: rgb(240, 240, 240);
-  --color-botones-secundario-light: black;
-  --color-botones-secundario-font-light: white;
-  --color-sombra-light: rgb(192, 192, 192);
-  --color-bordes-principal-light: rgb(126, 126, 126);
-  --color-bordes-secundario-light: rgb(0, 0, 0);
-  --color-radio-input-fondo-light: black;
-  --color-input-fondo-light: rgb(240, 240, 240);
-  --color-input-borde-light: rgb(53, 53, 255);
-  --color-marco-perfil-light: #e2e2e2;
-  --color-svg-principal-light: rgb(139, 139, 139);
+  /* Fondo principal: Azul muy tenue y descansado */
+  --color-fondo: #f8fafc;
+
+  /* Color primario: Indigo moderno y profesional */
+  --color-principal-light: #4f46e5;
+
+  /* Textos: Escala de grises con matiz azulado (Slate) */
+  --color-secundario-light: #334155; /* Texto principal */
+  --color-terciario-light: #64748b; /* Texto secundario / leyendas */
+
+  /* Tarjetas y Contenedores */
+  --color-cards-principal-light: #ffffff;
+
+  /* Botones Primarios (blancos / outline) */
+  --color-botones-principal-light: #ffffff;
+  --color-botones-principal-hover-light: #f1f5f9;
+
+  /* Botones Secundarios (sólidos) */
+  --color-botones-secundario-light: #4f46e5;
+  --color-botones-secundario-font-light: #ffffff;
+
+  /* Sombras y Bordes */
+  --color-sombra-light: rgba(15, 23, 42, 0.08);
+  --color-bordes-principal-light: #e2e8f0;
+  --color-bordes-secundario-light: #cbd5e1;
+
+  /* Formularios e Inputs (Corregido para hacer contraste con el fondo blanco de las cards) */
+  --color-radio-input-fondo-light: #4f46e5;
+  --color-input-fondo-light: #f1f5f9; /* Fondo gris claro tenue que contrasta contra #ffffff */
+  --color-input-borde-light: #d1d5db; /* Borde visible pero suave */
+  --color-input-borde-focus-light: #4f46e5; /* Borde al hacer clic/focus */
+
+  /* Detalles e Iconografía */
+  --color-marco-perfil-light: #e2e8f0;
+  --color-svg-principal-light: #64748b;
 }
 
 /* Estilos globales */
